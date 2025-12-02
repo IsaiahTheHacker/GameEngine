@@ -153,6 +153,30 @@ Engine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/Engine.c.s
 .PHONY : Engine.c.s
 
+gl.o: gl.c.o
+.PHONY : gl.o
+
+# target to build an object file
+gl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/gl.c.o
+.PHONY : gl.c.o
+
+gl.i: gl.c.i
+.PHONY : gl.i
+
+# target to preprocess a source file
+gl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/gl.c.i
+.PHONY : gl.c.i
+
+gl.s: gl.c.s
+.PHONY : gl.s
+
+# target to generate assembly for a file
+gl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/gl.c.s
+.PHONY : gl.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... Engine.o"
 	@echo "... Engine.i"
 	@echo "... Engine.s"
+	@echo "... gl.o"
+	@echo "... gl.i"
+	@echo "... gl.s"
 .PHONY : help
 
 

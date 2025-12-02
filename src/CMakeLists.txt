@@ -10,6 +10,10 @@ set(OpenGL_GL_PREFERENCE GLVND)
 find_package(glfw3 REQUIRED)
 find_package(OpenGL REQUIRED)
 # Executable
-add_executable(Engine Engine.c)
+add_executable(Engine 
+Engine.c
+gl.c
+)
 
 target_link_libraries(Engine glfw GL m)
+target_include_directories(Engine PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../include)

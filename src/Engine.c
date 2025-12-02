@@ -1,4 +1,12 @@
+#define GLFW_INCLUDE_NONE
+#include <glad/gl.h>
 #include <GLFW/glfw3.h>
+
+void error_callback(int error, const char* description)
+{
+    fprintf(stderr, "Error: %s\n", description);
+}
+
 
 int main(void)
 {
@@ -14,14 +22,17 @@ int main(void)
     /* Create a windowed mode window and its OpenGL context */
     window = glfwCreateWindow(WindowWidth, WindowHeight, WindowName, NULL, NULL);
     if (!window)
+void error_callback(int error, const char* description)
+{
+    fprintf(stderr, "Error: %s\n", description);
+}
     {
         glfwTerminate();
         return -1;
     }
 
     /* Make the window's context current */
-    glfwMakeContextCurrent(window);
-
+    gladLoadGL(glfwGetProcAddress);
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
     {
