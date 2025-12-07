@@ -1,4 +1,4 @@
-CMakeFiles/Engine.dir/gl.c.o: /home/isaiahe/Coding/GameEngine/src/gl.c \
+CMakeFiles/Engine.dir/gl.c.o: /home/isaiahe/Coding/gameengine/src/gl.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,8 +51,8 @@ CMakeFiles/Engine.dir/gl.c.o: /home/isaiahe/Coding/GameEngine/src/gl.c \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/isaiahe/Coding/GameEngine/src/../include/glad/gl.h \
- /home/isaiahe/Coding/GameEngine/src/../include/KHR/khrplatform.h \
+ /home/isaiahe/Coding/gameengine/src/../include/glad/gl.h \
+ /home/isaiahe/Coding/gameengine/src/../include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

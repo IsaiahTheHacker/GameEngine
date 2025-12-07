@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaiahe/Coding/GameEngine/src
+CMAKE_SOURCE_DIR = /home/isaiahe/Coding/gameengine/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaiahe/Coding/GameEngine/build
+CMAKE_BINARY_DIR = /home/isaiahe/Coding/gameengine/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Engine.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/Engine.dir/codegen:
 .PHONY : CMakeFiles/Engine.dir/codegen
 
 CMakeFiles/Engine.dir/Engine.c.o: CMakeFiles/Engine.dir/flags.make
-CMakeFiles/Engine.dir/Engine.c.o: /home/isaiahe/Coding/GameEngine/src/Engine.c
+CMakeFiles/Engine.dir/Engine.c.o: /home/isaiahe/Coding/gameengine/src/Engine.c
 CMakeFiles/Engine.dir/Engine.c.o: CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/isaiahe/Coding/GameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Engine.dir/Engine.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Engine.dir/Engine.c.o -MF CMakeFiles/Engine.dir/Engine.c.o.d -o CMakeFiles/Engine.dir/Engine.c.o -c /home/isaiahe/Coding/GameEngine/src/Engine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/isaiahe/Coding/gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Engine.dir/Engine.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Engine.dir/Engine.c.o -MF CMakeFiles/Engine.dir/Engine.c.o.d -o CMakeFiles/Engine.dir/Engine.c.o -c /home/isaiahe/Coding/gameengine/src/Engine.c
 
 CMakeFiles/Engine.dir/Engine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Engine.dir/Engine.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaiahe/Coding/GameEngine/src/Engine.c > CMakeFiles/Engine.dir/Engine.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaiahe/Coding/gameengine/src/Engine.c > CMakeFiles/Engine.dir/Engine.c.i
 
 CMakeFiles/Engine.dir/Engine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Engine.dir/Engine.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaiahe/Coding/GameEngine/src/Engine.c -o CMakeFiles/Engine.dir/Engine.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaiahe/Coding/gameengine/src/Engine.c -o CMakeFiles/Engine.dir/Engine.c.s
 
 CMakeFiles/Engine.dir/gl.c.o: CMakeFiles/Engine.dir/flags.make
-CMakeFiles/Engine.dir/gl.c.o: /home/isaiahe/Coding/GameEngine/src/gl.c
+CMakeFiles/Engine.dir/gl.c.o: /home/isaiahe/Coding/gameengine/src/gl.c
 CMakeFiles/Engine.dir/gl.c.o: CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/isaiahe/Coding/GameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Engine.dir/gl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Engine.dir/gl.c.o -MF CMakeFiles/Engine.dir/gl.c.o.d -o CMakeFiles/Engine.dir/gl.c.o -c /home/isaiahe/Coding/GameEngine/src/gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/isaiahe/Coding/gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Engine.dir/gl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Engine.dir/gl.c.o -MF CMakeFiles/Engine.dir/gl.c.o.d -o CMakeFiles/Engine.dir/gl.c.o -c /home/isaiahe/Coding/gameengine/src/gl.c
 
 CMakeFiles/Engine.dir/gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Engine.dir/gl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaiahe/Coding/GameEngine/src/gl.c > CMakeFiles/Engine.dir/gl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaiahe/Coding/gameengine/src/gl.c > CMakeFiles/Engine.dir/gl.c.i
 
 CMakeFiles/Engine.dir/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Engine.dir/gl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaiahe/Coding/GameEngine/src/gl.c -o CMakeFiles/Engine.dir/gl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaiahe/Coding/gameengine/src/gl.c -o CMakeFiles/Engine.dir/gl.c.s
 
 # Object files for target Engine
 Engine_OBJECTS = \
@@ -114,7 +114,7 @@ Engine: CMakeFiles/Engine.dir/build.make
 Engine: CMakeFiles/Engine.dir/compiler_depend.ts
 Engine: /usr/lib/x86_64-linux-gnu/libglfw.so.3.4
 Engine: CMakeFiles/Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/isaiahe/Coding/GameEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/isaiahe/Coding/gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +126,6 @@ CMakeFiles/Engine.dir/clean:
 .PHONY : CMakeFiles/Engine.dir/clean
 
 CMakeFiles/Engine.dir/depend:
-	cd /home/isaiahe/Coding/GameEngine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaiahe/Coding/GameEngine/src /home/isaiahe/Coding/GameEngine/src /home/isaiahe/Coding/GameEngine/build /home/isaiahe/Coding/GameEngine/build /home/isaiahe/Coding/GameEngine/build/CMakeFiles/Engine.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/isaiahe/Coding/gameengine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaiahe/Coding/gameengine/src /home/isaiahe/Coding/gameengine/src /home/isaiahe/Coding/gameengine/build /home/isaiahe/Coding/gameengine/build /home/isaiahe/Coding/gameengine/build/CMakeFiles/Engine.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Engine.dir/depend
 

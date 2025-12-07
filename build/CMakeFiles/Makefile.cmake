@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeSystem.cmake"
-  "/home/isaiahe/Coding/GameEngine/src/CMakeLists.txt"
+  "/home/isaiahe/Coding/gameengine/src/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake"

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/isaiahe/Coding/gameengine/build",
+  "command": "/usr/bin/cc  -I/home/isaiahe/Coding/gameengine/src/../include -g -std=gnu11 -o CMakeFiles/Engine.dir/Engine.c.o -c /home/isaiahe/Coding/gameengine/src/Engine.c",
+  "file": "/home/isaiahe/Coding/gameengine/src/Engine.c",
+  "output": "CMakeFiles/Engine.dir/Engine.c.o"
+},
+{
+  "directory": "/home/isaiahe/Coding/gameengine/build",
+  "command": "/usr/bin/cc  -I/home/isaiahe/Coding/gameengine/src/../include -g -std=gnu11 -o CMakeFiles/Engine.dir/gl.c.o -c /home/isaiahe/Coding/gameengine/src/gl.c",
+  "file": "/home/isaiahe/Coding/gameengine/src/gl.c",
+  "output": "CMakeFiles/Engine.dir/gl.c.o"
+}
+]
